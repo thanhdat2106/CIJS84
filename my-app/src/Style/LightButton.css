@@ -1,0 +1,25 @@
+#container {
+  padding-left: 500px;
+  padding-top: 10px;
+  flex-direction: column;
+}
+
+.btn-round {
+  background-color: white;
+  border: black solid 2px;
+  padding: 20px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.btn-rec {
+  background-color: white;
+  border: black solid 2px;
+  width: 80px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
