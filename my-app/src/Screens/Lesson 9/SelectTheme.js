@@ -11,8 +11,8 @@ const SelectTheme = () => {
   const themeBox = useContext(ThemeContext);
 
   const onSelectTheme = (event) => {
+    console.log("1233", event.target.value);
     themeBox.setTheme(event.target.value);
-    console.log("1233");
   };
   return (
     <div style={{ width: 300 }}>
