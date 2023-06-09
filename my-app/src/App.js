@@ -1,7 +1,8 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import Lesson9 from "./Screens/Lesson 9/Lesson 9";
-import ThemeContext from "./ThemeContext";
+import NavigateHome from "./Screens/Lesson 10/NavigateHome";
+// import Lesson9 from "./Screens/Lesson 9/Lesson 9";
+// import ThemeContext from "./ThemeContext";
 // import "./Style/CountNumber.css";
 // import CountNumber from "./Screens/Lesson 4/CountNumber";
 // import TrafficLight from "./Screens/Lesson 5/TrafficLight";
@@ -14,7 +15,8 @@ function App() {
   // return <TrafficLight />;
   // return <Register />;
   // return <table />;
-  return <Lesson9 />;
+  // return <Lesson9 />;
+  return <NavigateHome />;
 }
 
 export default App;
